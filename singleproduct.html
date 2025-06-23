@@ -1,0 +1,431 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <title>Shoppy Kart</title>
+
+  <style>
+    .navbar {
+      padding: 23px;
+      color: black;
+    }
+
+    .span1 {
+      color: red;
+      font-size: 30px;
+      font-weight: bold;
+      margin-left: 45PX;
+    }
+
+    .span2 {
+      font-size: 30px;
+      font-weight: bold;
+    }
+
+    .fa-magnifying-glass {
+      /*margin-top: 12px;*/
+      margin-left: -25px;
+      font-weight: bold;
+      font-size: large;
+
+    }
+
+    .button1 {
+      color: white;
+      background-color: red;
+      font-weight: bold;
+      border: none;
+      font-size: medium;
+      width: 100px;
+      border-radius: 5px;
+      margin-left: 70px;
+      padding: 5px;
+    }
+
+    .button2 {
+      color: white;
+      background-color: red;
+      font-weight: bold;
+      border: none;
+      font-size: medium;
+      width: 100px;
+      border-radius: 5px;
+      margin-left: 3px;
+      padding: 5px;
+    }
+
+
+    .search {
+      border: 2px solid red;
+      border-radius: 8px;
+      font-weight: bold;
+      margin-top: 4px;
+      margin-left: 12px;
+
+    }
+
+    h1 {
+      font-weight: bold;
+      font-size: 50px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+
+    .a {
+      color: red;
+      font-weight: bold;
+      font-size: larger;
+      text-shadow: 5px 4px 10px black
+    }
+
+
+
+
+    .carousel-caption {
+      margin-bottom: 90px;
+      color: white;
+      text-shadow: 4px 4px 10px black;
+    }
+
+    .navbar .navbar-nav .nav-item a:hover {
+      color: red;
+    }
+
+    /*Nav bar end*/
+
+    .a {
+      position: absolute;
+      margin-top: 50px;
+      margin-left: 470px;
+      text-shadow: 2px 2px 4px white;
+    }
+
+    /*productc*/
+
+    .button6 {
+      border: none;
+      background-color: rgb(216, 29, 29);
+      color: white;
+      padding: 6px;
+      font-weight: bold;
+      border-radius: 3px;
+      text-align: center;
+    }
+
+    .button6:hover {
+      background-color: rgba(245, 70, 70, 0.87);
+      color: white;
+
+    }
+
+    .box1 {
+      text-align: center;
+      margin-top: 100px;
+    }
+
+    .button3 {
+      background-color: red;
+      color: white;
+      padding: 14px;
+      border: none;
+      border-radius: 5px;
+      width: 170px;
+      margin-top: 20px;
+      font-size: large;
+    }
+  </style>
+
+
+
+
+
+
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light ">
+    <div class="container-fluid">
+      <a class="navbar-brand h1 " href="#"><span class="span1"> SHOPPY</span><span class="span2">KART</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-5 mb-2 mb-lg-0">
+          <li class="nav-item ">
+            <a class=" nav-link active" aria-current="page" href="carousel.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="about page.html">ABOUTS</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              PRODUCTS
+            </a>
+            <ul class="dropdown-menu active " aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item text-black" href="singleproduct.html">Product single</a></li>
+              <li><a class="dropdown-item text-black" href="luxury page.html">Luxuary</a></li>
+              <li><a class="dropdown-item text-black" href="rolex page.html">Rolex</a></li>
+              <li><a class="dropdown-item text-black" href="smart watch.html">Smart watch</a></li>
+            </ul>
+          </li>
+        
+          <li class="nav-item">
+            <a class="nav-link active" href="offer page.html">OFFERS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="contact page.html">CONTACTS</a>
+          </li>
+          <div>
+            <input class="search" type="search" placeholder="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+
+        </ul>
+
+
+
+        <button class="button1">
+          <i class="fa-solid fa-user"></i>
+          Login
+        </button>
+
+        <button class="button2">
+          <i class="fa-solid fa-bag-shopping"></i>
+          Cart
+        </button>
+
+      </div>
+    </div>
+  </nav>
+
+
+  <div>
+    <div class="a">
+      <h1><span style="color: red;">Summer Discount</span></h1>
+      <h1 style="color: white">Special Offer </h1>
+    </div>
+    <img src="img4.jpg" height="430px" width="100%">
+  </div><br><br><br>
+
+
+
+
+  <div style="background-color:beige;">
+    <div class="container p1">
+      <h1 style="text-shadow: 3px 3px 4px rgba(68, 68, 209, 0.808);">Best Discount For You</h1><br><br>
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-3 ">
+          <div class="card" style="width: 16rem;">
+            <img src="shirt12" height="300px" class="card-img-top m" alt="...">
+            <div class="card-body">
+              <h4 class="card-text">Min. 60% Off On Shirt</h4>
+              <h3><del>$4.00</del> <span style="color:red">$17.99</span></h3>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <br><br>
+              <button class="button6">Add to Cart</button>
+              <button class="button6">Buy Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-3">
+          <div class="card" style="width: 16rem;">
+            <img src="shirt10.jpg" height="300px" class="card-img-top m" alt="...">
+            <div class="card-body">
+              <h4 class="card-text">Min. 40% Off On Shirt</h4>
+              <h3><del>$3.00</del> <span style="color:red">$8.99</span></h3>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <br><br>
+              <button class="button6">Add to Cart</button>
+              <button class="button6">Buy Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-3">
+          <div class="card" style="width: 16rem;">
+            <img src="shirt11" height="300px" class="card-img-top m" alt="...">
+            <div class="card-body">
+              <h4 class="card-text">Min. 35% Off On Shirt </h4>
+              <h3><del>$5.00</del> <span style="color:red">$20.99</span></h3>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <br><br>
+              <button class="button6">Add to Cart</button>
+              <button class="button6">Buy Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-3">
+          <div class="card" style="width: 16rem;">
+            <img src="shirt9.jpg" height="300px" class="card-img-top m" alt="...">
+            <div class="card-body">
+              <h4 class="card-text">Min. 50% Off On Shirt </h4>
+              <h3><del>$15.00</del> <span style="color:red">$19.99</span></h3>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <br><br>
+              <button class="button6">Add to Cart</button>
+              <button class="button6">Buy Now</button>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <div style="background-color:beige;">
+    <div class="container p1">
+      <h1 style="text-shadow: 3px 3px 4px rgba(68, 68, 209, 0.808);">Deal Of The Day</h1><br><br>
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-3 ">
+          <div class="card" style="width: 16rem;">
+            <img src="shirt16" height="300px" class="card-img-top m" alt="...">
+            <div class="card-body">
+              <h4 class="card-text">Min. 55% Off On Shirt</h4>
+              <h3><del>$5.00</del> <span style="color:red">$8.99</span></h3>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <br><br>
+              <button class="button6">Add to Cart</button>
+              <button class="button6">Buy Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-3">
+          <div class="card" style="width: 16rem;">
+            <img src="shirt21" height="300px" class="card-img-top m" alt="...">
+            <div class="card-body">
+              <h4 class="card-text">Min. 60% Off On Shirt</h4>
+              <h3><del>$25.00</del> <span style="color:red">$49.99</span></h3>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <br><br>
+              <button class="button6">Add to Cart</button>
+              <button class="button6">Buy Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-3">
+          <div class="card" style="width: 16rem;">
+            <img src="shirt19" height="300px" class="card-img-top m" alt="...">
+            <div class="card-body">
+              <h4 class="card-text">Min. 45% Off On Shirt </h4>
+              <h3><del>$28.00</del> <span style="color:red">$40.99</span></h3>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <br><br>
+              <button class="button6">Add to Cart</button>
+              <button class="button6">Buy Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-3">
+          <div class="card" style="width: 16rem;">
+            <img src="shirt18" height="300px" class="card-img-top m" alt="...">
+            <div class="card-body">
+              <h4 class="card-text">Min. 50% Off On Shirt </h4>
+              <h3><del>$5.00</del> <span style="color:red">$99.99</span></h3>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <br><br>
+              <button class="button6">Add to Cart</button>
+              <button class="button6">Buy Now</button>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div><br><br><br>><br><br><br>
+
+
+  <div class="box1">
+    <span style="color:red;  font-weight:bold"> ShoppyKart Product List</span>
+    <h1> Branded Products</h1>
+    <h5 style="align-items: center;">
+      Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in <br>ligula
+      Semper at tempufddfel. Lorem ipsum dolor sit amet elit ipsum dolor.<br>Lorem ipsum
+      dolor sit amet consectetur adipisicing elit. Nulla non ipsum soluta<br>perferendi
+      s veniam qui esse magnam commodi quisquam.
+    </h5>
+    <button class="button3">
+      Read More
+      <i class="fa-solid fa-arrow-right"></i>
+    </button>
+
+  </div><br><br><br><br><br><br><br>
+
+
+
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"
+    integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
